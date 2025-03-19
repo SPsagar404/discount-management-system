@@ -1,23 +1,23 @@
-2025-03-18T14:53:07.427+05:30  INFO 11720 --- [discount-management-system] [main] .v.d.DiscountManagementSystemApplication : Starting DiscountManagementSystemApplication using Java 21.0.5 with PID 11720 (F:\VasyERP\discount-management-system\target\classes started by SAGAR in F:\VasyERP\discount-management-system)
-2025-03-18T14:53:07.429+05:30 DEBUG 11720 --- [discount-management-system] [main] .v.d.DiscountManagementSystemApplication : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-18T14:53:07.431+05:30  INFO 11720 --- [discount-management-system] [main] .v.d.DiscountManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
-2025-03-18T14:53:08.830+05:30  INFO 11720 --- [discount-management-system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-18T14:53:09.036+05:30  INFO 11720 --- [discount-management-system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 1 JPA repository interface.
-2025-03-18T14:53:10.059+05:30  INFO 11720 --- [discount-management-system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-03-18T14:53:10.085+05:30  INFO 11720 --- [discount-management-system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-03-18T14:53:10.087+05:30  INFO 11720 --- [discount-management-system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-18T14:53:10.217+05:30  INFO 11720 --- [discount-management-system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-03-18T14:53:10.219+05:30  INFO 11720 --- [discount-management-system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2689 ms
-2025-03-18T14:53:10.555+05:30  INFO 11720 --- [discount-management-system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-18T14:53:10.719+05:30  INFO 11720 --- [discount-management-system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2025-03-18T14:53:10.802+05:30  INFO 11720 --- [discount-management-system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-18T14:53:11.515+05:30  INFO 11720 --- [discount-management-system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-18T14:53:11.591+05:30  INFO 11720 --- [discount-management-system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-03-18T14:53:12.806+05:30  INFO 11720 --- [discount-management-system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c03e4
-2025-03-18T14:53:12.810+05:30  INFO 11720 --- [discount-management-system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-03-18T14:53:12.976+05:30  WARN 11720 --- [discount-management-system] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-03-18T14:53:12.978+05:30  WARN 11720 --- [discount-management-system] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-03-18T14:53:13.051+05:30  INFO 11720 --- [discount-management-system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-03-19T11:24:29.288+05:30  INFO 956 --- [discount-management-system] [main] .v.d.DiscountManagementSystemApplication : Starting DiscountManagementSystemApplication using Java 21.0.5 with PID 956 (F:\VasyERP\discount-management-system\target\classes started by SAGAR in F:\VasyERP\discount-management-system)
+2025-03-19T11:24:29.297+05:30 DEBUG 956 --- [discount-management-system] [main] .v.d.DiscountManagementSystemApplication : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-19T11:24:29.300+05:30  INFO 956 --- [discount-management-system] [main] .v.d.DiscountManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2025-03-19T11:24:30.914+05:30  INFO 956 --- [discount-management-system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-19T11:24:31.032+05:30  INFO 956 --- [discount-management-system] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
+2025-03-19T11:24:32.552+05:30  INFO 956 --- [discount-management-system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-19T11:24:32.591+05:30  INFO 956 --- [discount-management-system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-19T11:24:32.592+05:30  INFO 956 --- [discount-management-system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-19T11:24:32.741+05:30  INFO 956 --- [discount-management-system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-19T11:24:32.742+05:30  INFO 956 --- [discount-management-system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3335 ms
+2025-03-19T11:24:33.191+05:30  INFO 956 --- [discount-management-system] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-19T11:24:33.393+05:30  INFO 956 --- [discount-management-system] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-19T11:24:33.519+05:30  INFO 956 --- [discount-management-system] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-19T11:24:34.361+05:30  INFO 956 --- [discount-management-system] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-19T11:24:34.459+05:30  INFO 956 --- [discount-management-system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-19T11:24:35.446+05:30  INFO 956 --- [discount-management-system] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e7b0bec
+2025-03-19T11:24:35.451+05:30  INFO 956 --- [discount-management-system] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-19T11:24:35.617+05:30  WARN 956 --- [discount-management-system] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-19T11:24:35.621+05:30  WARN 956 --- [discount-management-system] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-19T11:24:35.678+05:30  INFO 956 --- [discount-management-system] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -25,143 +25,32 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-03-18T14:53:15.373+05:30  INFO 11720 --- [discount-management-system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-18T14:53:15.603+05:30  INFO 11720 --- [discount-management-system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-18T14:53:16.269+05:30  WARN 11720 --- [discount-management-system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-18T14:53:17.197+05:30  INFO 11720 --- [discount-management-system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-03-18T14:53:17.220+05:30  INFO 11720 --- [discount-management-system] [main] .v.d.DiscountManagementSystemApplication : Started DiscountManagementSystemApplication in 10.64 seconds (process running for 11.656)
-2025-03-18T14:53:25.971+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-18T14:53:25.971+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-03-18T14:53:25.976+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-03-18T14:53:26.419+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.c.ProductDiscountController        : Received request to apply discount: DiscountRequest(productId=1, discountType=PERCENTAGE, discountValue=15.0, seasonalDiscountActive=true)
-2025-03-18T14:53:26.420+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Processing discount for product ID: 1
-2025-03-18T14:53:26.628+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Product found: Laptop | Price: 1020.0 | Quantity: 10
-2025-03-18T14:53:26.629+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Calculating discounted price for product: Laptop with discount type: PERCENTAGE
-2025-03-18T14:53:26.630+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Applied percentage discount: 15.0%. New price: 867.0
-2025-03-18T14:53:26.631+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Checking seasonal discount eligibility for product: Laptop
-2025-03-18T14:53:26.632+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Product Laptop is NOT eligible for seasonal discount.
-2025-03-18T14:53:26.632+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : No seasonal discount applied for product: Laptop
-2025-03-18T14:53:26.658+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Final discounted price for product Laptop: 867.0
-2025-03-18T14:53:26.659+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Applying discount for product: Laptop with ID: 1
-2025-03-18T14:53:26.659+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated product price after discount: $867.0
-2025-03-18T14:53:26.659+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated seasonal discount status: true
-2025-03-18T14:53:26.786+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Product details updated and saved successfully for ID: 1
-2025-03-18T14:53:26.787+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.s.impl.ProductDiscountServiceImpl  : Returning ProductResponse: Product ID: 1, Name: Laptop, Final Price: $867.0
-2025-03-18T14:53:33.159+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.c.ProductDiscountController        : Received request to apply discount: DiscountRequest(productId=1, discountType=PERCENTAGE, discountValue=15.0, seasonalDiscountActive=true)
-2025-03-18T14:53:33.160+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Processing discount for product ID: 1
-2025-03-18T14:53:33.172+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Product found: Laptop | Price: 867.0 | Quantity: 10
-2025-03-18T14:53:33.174+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Calculating discounted price for product: Laptop with discount type: PERCENTAGE
-2025-03-18T14:53:33.174+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Applied percentage discount: 15.0%. New price: 736.95
-2025-03-18T14:53:33.175+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Checking seasonal discount eligibility for product: Laptop
-2025-03-18T14:53:33.175+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Product Laptop is NOT eligible for seasonal discount.
-2025-03-18T14:53:33.175+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : No seasonal discount applied for product: Laptop
-2025-03-18T14:53:33.176+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Final discounted price for product Laptop: 736.95
-2025-03-18T14:53:33.176+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Applying discount for product: Laptop with ID: 1
-2025-03-18T14:53:33.176+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated product price after discount: $736.95
-2025-03-18T14:53:33.176+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated seasonal discount status: true
-2025-03-18T14:53:33.198+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Product details updated and saved successfully for ID: 1
-2025-03-18T14:53:33.199+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.s.impl.ProductDiscountServiceImpl  : Returning ProductResponse: Product ID: 1, Name: Laptop, Final Price: $736.95
-2025-03-18T14:54:10.773+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.c.ProductDiscountController        : Received request to apply discount: DiscountRequest(productId=1, discountType=PERCENTAGE, discountValue=0.0, seasonalDiscountActive=true)
-2025-03-18T14:54:10.775+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Processing discount for product ID: 1
-2025-03-18T14:54:10.789+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Product found: Laptop | Price: 736.95 | Quantity: 10
-2025-03-18T14:54:10.789+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Calculating discounted price for product: Laptop with discount type: PERCENTAGE
-2025-03-18T14:54:10.790+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Applied percentage discount: 0.0%. New price: 736.95
-2025-03-18T14:54:10.790+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Checking seasonal discount eligibility for product: Laptop
-2025-03-18T14:54:10.790+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Product Laptop is NOT eligible for seasonal discount.
-2025-03-18T14:54:10.790+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : No seasonal discount applied for product: Laptop
-2025-03-18T14:54:10.791+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Final discounted price for product Laptop: 736.95
-2025-03-18T14:54:10.792+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Applying discount for product: Laptop with ID: 1
-2025-03-18T14:54:10.792+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated product price after discount: $736.95
-2025-03-18T14:54:10.793+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated seasonal discount status: true
-2025-03-18T14:54:10.798+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Product details updated and saved successfully for ID: 1
-2025-03-18T14:54:10.798+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Returning ProductResponse: Product ID: 1, Name: Laptop, Final Price: $736.95
-2025-03-18T14:55:29.218+05:30  WARN 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.exception.GlobalExceptionHandler   : Validation error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.vasyerp.discount.dto.ProductResponse> com.vasyerp.discount.controller.ProductDiscountController.applyDiscount(com.vasyerp.discount.dto.DiscountRequest): [Field error in object 'discountRequest' on field 'discountValue': rejected value [-1.0]; codes [Min.discountRequest.discountValue,Min.discountValue,Min.java.lang.Double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [discountRequest.discountValue,discountValue]; arguments []; default message [discountValue],0]; default message [Discount value must be non-negative]] 
-2025-03-18T14:55:51.782+05:30 ERROR 11720 --- [discount-management-system] [http-nio-8080-exec-9] c.v.d.exception.GlobalExceptionHandler   : Unexpected error occurred: Request method 'POST' is not supported
-
-org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported
-	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:267) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:127) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:509) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1283) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
-
-2025-03-18T14:56:02.927+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-1] c.v.d.c.ProductDiscountController        : Fetching product details for ID: 1
-2025-03-18T14:56:02.927+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-1] c.v.d.s.impl.ProductDiscountServiceImpl  : Fetching product details for ID: 1
-2025-03-18T14:56:02.939+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-1] c.v.d.s.impl.ProductDiscountServiceImpl  : Product details retrieved: Laptop
-2025-03-18T14:56:02.940+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-1] c.v.d.s.impl.ProductDiscountServiceImpl  : Returning ProductResponse: Product ID: 1, Name: Laptop, Final Price: $736.95
-2025-03-18T14:59:40.049+05:30  WARN 11720 --- [discount-management-system] [http-nio-8080-exec-3] c.v.d.exception.GlobalExceptionHandler   : Validation error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.vasyerp.discount.dto.ProductResponse> com.vasyerp.discount.controller.ProductDiscountController.applyDiscount(com.vasyerp.discount.dto.DiscountRequest): [Field error in object 'discountRequest' on field 'discountValue': rejected value [-1.0]; codes [Min.discountRequest.discountValue,Min.discountValue,Min.java.lang.Double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [discountRequest.discountValue,discountValue]; arguments []; default message [discountValue],0]; default message [Discount value must be non-negative]] 
-2025-03-18T16:07:36.248+05:30  WARN 11720 --- [discount-management-system] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m53s71ms606µs300ns).
-2025-03-18T16:36:28.281+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.c.ProductDiscountController        : Received request to apply discount: DiscountRequest(productId=2, discountType=PERCENTAGE, discountValue=0.0, seasonalDiscountActive=true)
-2025-03-18T16:36:28.284+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Processing discount for product ID: 2
-2025-03-18T16:36:28.336+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Product found: Smartphone | Price: 800.5 | Quantity: 15
-2025-03-18T16:36:28.337+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Calculating discounted price for product: Smartphone with discount type: PERCENTAGE
-2025-03-18T16:36:28.337+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Applied percentage discount: 0.0%. New price: 800.5
-2025-03-18T16:36:28.337+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Checking seasonal discount eligibility for product: Smartphone
-2025-03-18T16:36:28.338+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Product Smartphone is NOT eligible for seasonal discount.
-2025-03-18T16:36:28.338+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : No seasonal discount applied for product: Smartphone
-2025-03-18T16:36:28.341+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Final discounted price for product Smartphone: 800.5
-2025-03-18T16:36:28.343+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Applying discount for product: Smartphone with ID: 2
-2025-03-18T16:36:28.343+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated product price after discount: $800.5
-2025-03-18T16:36:28.343+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated seasonal discount status: true
-2025-03-18T16:36:28.367+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Product details updated and saved successfully for ID: 2
-2025-03-18T16:36:28.368+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-5] c.v.d.s.impl.ProductDiscountServiceImpl  : Returning ProductResponse: Product ID: 2, Name: Smartphone, Final Price: $800.5
-2025-03-18T16:36:50.462+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.c.ProductDiscountController        : Received request to apply discount: DiscountRequest(productId=2, discountType=FLAT, discountValue=10.0, seasonalDiscountActive=true)
-2025-03-18T16:36:50.463+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Processing discount for product ID: 2
-2025-03-18T16:36:50.475+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Product found: Smartphone | Price: 800.5 | Quantity: 15
-2025-03-18T16:36:50.476+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Calculating discounted price for product: Smartphone with discount type: FLAT
-2025-03-18T16:36:50.478+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Applied flat discount: 10.0. New price: 790.5
-2025-03-18T16:36:50.478+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Checking seasonal discount eligibility for product: Smartphone
-2025-03-18T16:36:50.478+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Product Smartphone is NOT eligible for seasonal discount.
-2025-03-18T16:36:50.479+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : No seasonal discount applied for product: Smartphone
-2025-03-18T16:36:50.480+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Final discounted price for product Smartphone: 790.5
-2025-03-18T16:36:50.481+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Applying discount for product: Smartphone with ID: 2
-2025-03-18T16:36:50.482+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated product price after discount: $790.5
-2025-03-18T16:36:50.482+05:30 DEBUG 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated seasonal discount status: true
-2025-03-18T16:36:50.495+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Product details updated and saved successfully for ID: 2
-2025-03-18T16:36:50.496+05:30  INFO 11720 --- [discount-management-system] [http-nio-8080-exec-7] c.v.d.s.impl.ProductDiscountServiceImpl  : Returning ProductResponse: Product ID: 2, Name: Smartphone, Final Price: $790.5
-2025-03-18T16:37:18.074+05:30  WARN 11720 --- [discount-management-system] [http-nio-8080-exec-8] c.v.d.exception.GlobalExceptionHandler   : Validation error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.vasyerp.discount.dto.ProductResponse> com.vasyerp.discount.controller.ProductDiscountController.applyDiscount(com.vasyerp.discount.dto.DiscountRequest): [Field error in object 'discountRequest' on field 'discountValue': rejected value [-10.0]; codes [Min.discountRequest.discountValue,Min.discountValue,Min.java.lang.Double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [discountRequest.discountValue,discountValue]; arguments []; default message [discountValue],0]; default message [Discount value must be non-negative]] 
-2025-03-18T16:44:23.783+05:30  WARN 11720 --- [discount-management-system] [http-nio-8080-exec-10] c.v.d.exception.GlobalExceptionHandler   : Validation error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.vasyerp.discount.dto.ProductResponse> com.vasyerp.discount.controller.ProductDiscountController.applyDiscount(com.vasyerp.discount.dto.DiscountRequest) with 2 errors: [Field error in object 'discountRequest' on field 'discountType': rejected value [null]; codes [NotNull.discountRequest.discountType,NotNull.discountType,NotNull.com.vasyerp.discount.model.DiscountType,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [discountRequest.discountType,discountType]; arguments []; default message [discountType]]; default message [Discount type is required]] [Field error in object 'discountRequest' on field 'discountValue': rejected value [-10.0]; codes [Min.discountRequest.discountValue,Min.discountValue,Min.java.lang.Double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [discountRequest.discountValue,discountValue]; arguments []; default message [discountValue],0]; default message [Discount value must be non-negative]] 
-2025-03-18T16:44:58.550+05:30  WARN 11720 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.exception.GlobalExceptionHandler   : Validation error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.vasyerp.discount.dto.ProductResponse> com.vasyerp.discount.controller.ProductDiscountController.applyDiscount(com.vasyerp.discount.dto.DiscountRequest): [Field error in object 'discountRequest' on field 'discountValue': rejected value [-10.0]; codes [Min.discountRequest.discountValue,Min.discountValue,Min.java.lang.Double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [discountRequest.discountValue,discountValue]; arguments []; default message [discountValue],0]; default message [Discount value must be non-negative]] 
-2025-03-18T17:13:05.229+05:30  WARN 11720 --- [discount-management-system] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m57s813ms972µs400ns).
+2025-03-19T11:24:38.313+05:30  INFO 956 --- [discount-management-system] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-19T11:24:38.491+05:30  INFO 956 --- [discount-management-system] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-19T11:24:39.258+05:30  WARN 956 --- [discount-management-system] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-19T11:24:40.163+05:30  INFO 956 --- [discount-management-system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-19T11:24:40.180+05:30  INFO 956 --- [discount-management-system] [main] .v.d.DiscountManagementSystemApplication : Started DiscountManagementSystemApplication in 11.676 seconds (process running for 13.291)
+2025-03-19T11:25:00.351+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-19T11:25:00.352+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-19T11:25:00.362+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2025-03-19T11:25:00.984+05:30  WARN 956 --- [discount-management-system] [http-nio-8080-exec-2] c.v.d.exception.GlobalExceptionHandler   : Validation error: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.vasyerp.discount.dto.ProductResponse> com.vasyerp.discount.controller.ProductDiscountController.applyDiscount(com.vasyerp.discount.dto.DiscountRequest): [Field error in object 'discountRequest' on field 'discountValue': rejected value [-10.0]; codes [Min.discountRequest.discountValue,Min.discountValue,Min.java.lang.Double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [discountRequest.discountValue,discountValue]; arguments []; default message [discountValue],0]; default message [Discount value must be non-negative]] 
+2025-03-19T11:25:25.673+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.c.ProductDiscountController        : Received request to apply discount: DiscountRequest(productId=2, discountType=FLAT, discountValue=10.0, seasonalDiscountActive=true)
+2025-03-19T11:25:25.735+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Processing discount for product ID: 2
+2025-03-19T11:25:26.857+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Product found: Smartphone | Price: 790.5 | Quantity: 15
+2025-03-19T11:25:26.858+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Calculating discounted price for product: Smartphone with discount type: FLAT
+2025-03-19T11:25:26.858+05:30 DEBUG 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Applied flat discount: 10.0. New price: 780.5
+2025-03-19T11:25:26.860+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Checking seasonal discount eligibility for product: Smartphone
+2025-03-19T11:25:26.861+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Product Smartphone is NOT eligible for seasonal discount.
+2025-03-19T11:25:26.861+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : No seasonal discount applied for product: Smartphone
+2025-03-19T11:25:26.869+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Final discounted price for product Smartphone: 780.5
+2025-03-19T11:25:26.870+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Applying discount for product: Smartphone with ID: 2
+2025-03-19T11:25:26.871+05:30 DEBUG 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated product price after discount: $780.5
+2025-03-19T11:25:26.872+05:30 DEBUG 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Updated seasonal discount status: true
+2025-03-19T11:25:26.904+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Product details updated and saved successfully for ID: 2
+2025-03-19T11:25:26.905+05:30  INFO 956 --- [discount-management-system] [http-nio-8080-exec-4] c.v.d.s.impl.ProductDiscountServiceImpl  : Returning ProductResponse: Product ID: 2, Name: Smartphone, Final Price: $780.5
+2025-03-19T11:27:25.003+05:30  INFO 956 --- [discount-management-system] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-03-19T11:27:25.009+05:30  INFO 956 --- [discount-management-system] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-19T11:27:25.021+05:30  INFO 956 --- [discount-management-system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-19T11:27:25.034+05:30  INFO 956 --- [discount-management-system] [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-19T11:27:25.039+05:30  INFO 956 --- [discount-management-system] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-19T11:27:25.064+05:30  INFO 956 --- [discount-management-system] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

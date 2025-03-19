@@ -3,11 +3,13 @@ package com.vasyerp.discount.service.impl;
 import java.text.DecimalFormat;
 import java.time.LocalDate;
 import java.util.Optional;
+import java.util.Random;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.vasyerp.discount.dto.DiscountRequest;
 import com.vasyerp.discount.dto.ProductResponse;
@@ -16,7 +18,9 @@ import com.vasyerp.discount.exception.ProductNotFoundExcepton;
 import com.vasyerp.discount.exception.ProductOutOfStockException;
 import com.vasyerp.discount.model.DiscountType;
 import com.vasyerp.discount.model.Product;
+import com.vasyerp.discount.model.Season;
 import com.vasyerp.discount.repository.IProductRepository;
+import com.vasyerp.discount.repository.ISeasonRepository;
 import com.vasyerp.discount.service.IProductDiscountService;
 
 @Service
@@ -25,9 +29,13 @@ public class ProductDiscountServiceImpl implements IProductDiscountService {
 	@Autowired
 	private IProductRepository productRepository;
 
+	@Autowired
+	private ISeasonRepository seasonRepository;
+
 	private static final Logger logger = LoggerFactory.getLogger(ProductDiscountServiceImpl.class);
 
 	@Override
+	@Transactional
 	public ProductResponse applyDiscount(DiscountRequest request) {
 		logger.info("Processing discount for product ID: {}", request.getProductId());
 
@@ -58,6 +66,22 @@ public class ProductDiscountServiceImpl implements IProductDiscountService {
 
 		product.setSeasonalDiscountActive(request.getSeasonalDiscountActive());
 		logger.debug("Updated seasonal discount status: {}", request.getSeasonalDiscountActive());
+
+		Random random = new Random();
+		long seasonId = random.nextInt(3) + 1L;
+
+		logger.info("Generated random seasonId: {}", seasonId);
+
+		Optional<Season> optionalSeason = seasonRepository.findById(seasonId);
+
+		if (optionalSeason.isPresent()) {
+			Season season = optionalSeason.get();
+			product.setSeason(season);
+			logger.info("Assigned Season (ID: {}, Name: {}) to Product: {}", season.getId(), season.getName(),
+					product.getName());
+		} else {
+			logger.warn("No season found with ID: {}", seasonId);
+		}
 
 		Product savedProduct = productRepository.save(product);
 		logger.info("Product details updated and saved successfully for ID: {}", savedProduct.getId());
