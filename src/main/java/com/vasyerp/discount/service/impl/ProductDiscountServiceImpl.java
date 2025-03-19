@@ -67,20 +67,22 @@ public class ProductDiscountServiceImpl implements IProductDiscountService {
 		product.setSeasonalDiscountActive(request.getSeasonalDiscountActive());
 		logger.debug("Updated seasonal discount status: {}", request.getSeasonalDiscountActive());
 
-		Random random = new Random();
-		long seasonId = random.nextInt(3) + 1L;
+		if(product.getSeason().getId() == null) {
+			Random random = new Random();
+			long seasonId = random.nextInt(3) + 1L;
 
-		logger.info("Generated random seasonId: {}", seasonId);
+			logger.info("Generated random seasonId: {}", seasonId);
 
-		Optional<Season> optionalSeason = seasonRepository.findById(seasonId);
+			Optional<Season> optionalSeason = seasonRepository.findById(seasonId);
 
-		if (optionalSeason.isPresent()) {
-			Season season = optionalSeason.get();
-			product.setSeason(season);
-			logger.info("Assigned Season (ID: {}, Name: {}) to Product: {}", season.getId(), season.getName(),
-					product.getName());
-		} else {
-			logger.warn("No season found with ID: {}", seasonId);
+			if (optionalSeason.isPresent()) {
+				Season season = optionalSeason.get();
+				product.setSeason(season);
+				logger.info("Assigned Season (ID: {}, Name: {}) to Product: {}", season.getId(), season.getName(),
+						product.getName());
+			} else {
+				logger.warn("No season found with ID: {}", seasonId);
+			}
 		}
 
 		Product savedProduct = productRepository.save(product);
