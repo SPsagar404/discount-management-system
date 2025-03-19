@@ -67,7 +67,7 @@ public class ProductDiscountServiceImpl implements IProductDiscountService {
 		product.setSeasonalDiscountActive(request.getSeasonalDiscountActive());
 		logger.debug("Updated seasonal discount status: {}", request.getSeasonalDiscountActive());
 
-		if(product.getSeason().getId() == null) {
+		if(product.getSeason() == null) {
 			Random random = new Random();
 			long seasonId = random.nextInt(3) + 1L;
 
